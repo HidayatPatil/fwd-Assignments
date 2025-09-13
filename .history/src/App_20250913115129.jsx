@@ -7,7 +7,7 @@ function Book(prop){
           <p>by</p>
           <p>{prop.author}</p>
         </div>
-        <a href={prop.link} target="_blank" className="book_link">Learn More</a>
+        <a href={prop.link} className="book_link">Learn More</a>
       </div>
     </div>
   )
